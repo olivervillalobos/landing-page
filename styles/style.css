@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: #1F2937;
+    font-family: sans-serif;
+}
+header .row{
+    display: flex;
+    height: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+header .column{
+    flex: 50%;
+    margin-top: 1rem;
+}
+header .row .column p a{
+    text-align: left;
+    font-size: 16px;
+    color: #F9FAF8;
+}
+header .row .column nav{
+    text-align: right;
+}
+header .row .column nav a{
+    margin-left: 2.5%;
+    color: #E5E7EB;
+    font-size: 12px;
+}
+main .first-section{
+    background-color: #1F2937;
+    font-family: sans-serif;
+}
+main .first-section article{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+main .first-section .row .column{
+    flex: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+main .first-section .row .column h1{
+    font: 48px; font-weight:bolder; 
+    color: #F9FAF8;
+    margin-bottom: 2%;
+}
+main .first-section .row .column h1{
+    font: 48px; font-weight:extra-bold; 
+    color: #F9FAF8;
+    margin-bottom: 0.5rem;
+}
+main .first-section .row .column #once{
+    color: #E5E7EB;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+main .first-section .row .column button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+main .first-section .row .column button:hover{
+    background-color: gray;
+    color: #F9FAF8;
+    width: 100px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: dotted;
+    display: inline-block;
+    border-radius: 3px;
+}
+#gray-block{
+    margin-left: 5%;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
+.second-section{
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+}
+.second-section .flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.second-section h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1F2937;
+}
+.second-section .flex-container div figure figcaption{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+.square{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.third-section{
+    background-color: #E5E7EB;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.third-section article{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: sans-serif;
+}
+blockquote{
+    font-size: 14px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.third-section article p{
+    text-align: right;
+    margin-top: 1rem;
+    padding-right: 1rem;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.fourth-section article{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: sans-serif;
+}
+.fourth-section article .container{
+    background-color: #3882f6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 12px;
+}
+.content{
+    margin: 1rem 2rem 1rem 2rem;
+    width: 80%;
+}
+.content h4{
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.content p{
+    color: #F9FAF8;
+    font-weight:lighter;
+    font-size: 10px
+}
+.fourth-section article .container .button-div{
+    width: 20%;
+}
+.fourth-section article .container .button-div button{
+    width: auto;
+    background-color: #3882f6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-block;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1rem;
+}
+.fourth-section article .container .button-div button:hover{
+    max-width: 100px;
+    background-color: gray;
+    color: #F9FAF8;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: dotted;
+    display: inline-block;
+    border-radius: 3px;
+}
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 12px;
+    color: #F9FAF8;
+    font-family: sans-serif
+}
